@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css"></link>
     <script src="script.js"></script>
 </head>
-<body onload="checkCookie()">
+<body >
     <div class="cookie1">
     <input type="button" value="Set Cookie 1" onclick="setCookie1()"/>
     <input type="button" value="Get Cookie 1" onclick="getCookie1()"/>
@@ -16,13 +16,13 @@
     </div>
 
      <div class="cookie2">
-    <input type="button" value="Set Cookie 2"/>
-    <input type="button" value="Get Cookie 2"/>
-    <input type="button" value="Delete Cookie 2"/>
+    <input type="button" value="Set Cookie 2" onclick="setCookie2()"/>
+    <input type="button" value="Get Cookie 2" onclick="getCookie2()"/>
+    <input type="button" value="Delete Cookie 2" onclick="deleteCookie2()"/>
     </div>
 
     <div class="displayall">
-        <input type="button" value="Display All Cookies"/>
+        <input type="button" value="Display All Cookies" onclick="displayAllCookies()"/>
     </div>
 
 </body>
